@@ -1,5 +1,5 @@
 .NavbarItems {
-    background:  rgb(252, 63, 120, 100%);
+    background:  #db0000;
     height: 80px;
     display: flex;
     justify-content: center;
@@ -28,4 +28,27 @@
     width: 70vw;
     justify-content: end;
     margin-right: 2rem;
+}
+
+.nav-links {
+    color: white;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+}
+.nav-links:hover {
+    background-color: gray;
+    border-radius: 4px;
+    transition: all 0.2s ease-out;
+}
+
+.fa-bars {
+    color: #fff;
+}
+
+.nav-links-mobile {
+    display: none;
+}
+
+.menu-icon {
+    display: none;
 }
